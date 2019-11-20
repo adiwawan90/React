@@ -1,0 +1,196 @@
+.wrapper{
+  min-height: auto;
+  width: auto;
+}
+.header {
+  /* background-color: #ec1e37;
+  margin-top: -20px;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 1px 4px #333;
+  position: fixed;
+  overflow: hidden;
+  clear: both; */
+  background-color: #ec1e37;
+  box-shadow: 0 1px 4px #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar{
+  height: 60px;
+  width: 1200px;
+  margin: auto;
+}
+.logo {
+  float: left;
+  width: 100px;
+  line-height: 60px;
+  cursor: pointer;
+}
+span.logo {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.menu{
+  height: 60px;
+  float: right!important;
+  margin-right: 0px;
+  font-size: 14px;
+  margin-top: 3px;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu ul li{
+  float: left;
+  margin-right: 7px;
+  list-style: none;
+  line-height: 22px;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+ 
+}
+.menu ul li:last-child{
+  background-color: #CC1B16;
+  border-radius: 30px;
+  width: 94px;
+  height: 15px;
+  margin-top: 3px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 14px;
+  text-transform: none;
+}
+
+.menu ul li a:hover{
+  /* background-color: azure; */
+  color: blue;
+  width: 100px;
+  cursor: pointer;
+  height: 300x;
+}
+.head-bottom{
+  clear: both;
+  background: linear-gradient(150deg, red, maroon);
+  width: 1200px;
+  height: 60px;
+  margin: 18px auto;
+  border-radius: 15px;
+  margin-top: 80px;
+}
+p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+}
+.container{
+  width: 1200px;
+  min-height: 800px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  clear: both;
+}
+.slider img{
+  width: 900px;
+  height: 400px;
+  margin: auto;
+  float: left;
+  border-radius: 10px;
+}
+.container-kanan {
+  width: 250px;
+  height: 400px;
+  margin: auto;
+  float: right;
+}
+.container-kanan .banner{
+  background-color: indianred;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 175px;
+  width: 250px;
+  background-size: contain;
+  border-radius: 10px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.container-kanan .banner:last-child{
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 175px;
+  width: 250px;
+  background-size: contain;
+  border-radius: 10px;
+  text-align: left;
+}
+button {
+  background-color: #EC1D45;
+  width: 106px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 95px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.banner-bottom{
+  clear: both;
+  margin-top: 20px;
+}
+.banner-bottom-ok{
+  background-color: teal;
+  margin: 0px 16px;
+  height: 200px;
+  width: 267px;
+  border-radius: 10px;
+  float: left;
+  margin-top: 20px;
+  border: 0.3px solid;
+}
+.addon{
+  height: 30px;
+  background-color: white;
+  margin-top: 170px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.addon a{
+  float: right;
+  line-height: 30px;
+  margin-right: 15px;
+}
+p.ket{
+  color: black;
+  float: left;
+  line-height: 0px;
+  margin-left: 25px;
+}
+h2{
+  clear: both;
+  margin-top: 20px;
+}
+.tivi{
+  clear: both;
+  background-color: #020825;
+  margin-top: -130px;
+  width: 100%;
+  height: 460px;
+}
+
+.tivi h2{
+  clear: both;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 25px;
+}
